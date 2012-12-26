@@ -23,7 +23,7 @@ Or install it yourself as:
 ## Usage
 
 To use the assets, simply include the stylesheet into your project's application.css(.scss) file.  The
-classes included in the stylesheet were taken from the example stylesheet found [here](https://github.com/kudakurage/LigatureSymbols).
+classes included in the stylesheet were taken from the example stylesheet found [here](https://github.com/kudakurage/LigatureSymbols#sample-css).
 
 ## License Information
 This gem's *code* is licensed under the terms of the MIT License.  
