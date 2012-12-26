@@ -1,11 +1,13 @@
+$font-version: 2.09;
+
 @font-face {
     font-family: 'LigatureSymbols';
-    src: url('/assets/fonts/LigatureSymbols.eot');
-    src: url('/assets/fonts/LigatureSymbols.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/LigatureSymbols.woff') format('woff'),
-         url('/assets/fonts/LigatureSymbols.ttf') format('truetype'),
-         url('/assets/fonts/LigatureSymbols.svg#LigatureSymbols') format('svg');
-    src: url('/assets/fonts/LigatureSymbols.ttf') format('truetype');
+    src: font-url('LigatureSymbols-#{$font-version}.eot');
+    src: font-url('LigatureSymbols-#{$font-version}.eot?#iefix') format('embedded-opentype'),
+         font-url('LigatureSymbols-#{$font-version}.woff') format('woff'),
+         font-url('LigatureSymbols-#{$font-version}.ttf') format('truetype'),
+         font-url('LigatureSymbols-#{$font-version}.svg#LigatureSymbols') format('svg');
+    src: font-url('LigatureSymbols-#{$font-version}.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
